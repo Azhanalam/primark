@@ -12,6 +12,8 @@ import {
 } from '@angular/material';
 import { SliderModule } from 'angular-image-slider';
 import {MatDialogModule} from '@angular/material/dialog';
+import {MatGridListModule} from '@angular/material/grid-list';
+import { ZXingScannerModule } from '@zxing/ngx-scanner';
 
 import { OrderDetailsComponent } from './order-details/order-details.component';
 import { ProductDetailsComponent } from './product-details/product-details.component';
@@ -41,6 +43,8 @@ import { Suitsdialog2Component } from './dialog/suitsdialog2/suitsdialog2.compon
     
   ],
   imports: [
+    ZXingScannerModule,
+    MatGridListModule,
     MatDialogModule,
     SliderModule,
     MatCardModule,
