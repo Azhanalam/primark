@@ -76,15 +76,15 @@ export class ScannerdialogComponent implements OnInit {
   {
   
     const dialogRef = this.dialog.open(PickdialogComponent, { 
-      width: '550px',
-      height:'550px'
+      width: '400px',
+      height:'375px'
     });
 
     dialogRef.afterClosed().subscribe(result => {
       console.log('The dialog was closed');
       
     });
-    
+    window.scrollTo(0, 0);
   }
 
 }

@@ -6,6 +6,7 @@
 }
 .LOGOHEADER{
     height: 50px !important;
+    /* background: #19194A; */
 }
 .companyName{
     font-size: 150%;
@@ -49,4 +50,8 @@ button{
   }
   .logo{
     flex: .5 .5 auto;
+  }
+  .logo__image{
+    height: 25px;
+    margin-top: 10px;
   }

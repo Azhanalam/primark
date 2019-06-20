@@ -25,6 +25,8 @@ import { SuitsdialogComponent } from './dialog/suitsdialog/suitsdialog.component
 import { Scanner2Component } from './dialog/scanner2/scanner2.component';
 import { Scanner3Component } from './dialog/scanner3/scanner3.component';
 import { Suitsdialog2Component } from './dialog/suitsdialog2/suitsdialog2.component';
+import { StoremapComponent } from './storemap/storemap.component';
+import { ProductComponent } from './product/product.component';
 
 
 @NgModule({
@@ -40,6 +42,8 @@ import { Suitsdialog2Component } from './dialog/suitsdialog2/suitsdialog2.compon
     Scanner2Component,
     Scanner3Component,
     Suitsdialog2Component,
+    StoremapComponent,
+    ProductComponent,
     
   ],
   imports: [

@@ -29,6 +29,20 @@
     margin-top: -59px;
     font-weight: bold;
  }
+ .HEADER{
+  background: black;
+  color: white;
+  font-size: 17px;
+  height: 50px !important;
+}
+.example-spacer {
+flex: .5 .5 auto;
+}
+.MENU{
+text-decoration: none;
+font-size: 164%;
+white-space: normal;
+}
  
 
 /* 
