@@ -8,12 +8,17 @@ import {Router} from '@angular/router'
 })
 export class PickdialogComponent implements OnInit {
 
+ inputText:string;
+
   constructor(private router:Router) { }
 
   ngOnInit() {
   }
-  YES(){
-    this.router.navigate(["order"]);
-    window.scrollTo(0, 0);
+  
+  YES(inputText){
+    console.log("input Tex",inputText);
+    this.router.navigate(["map2"]);
+    window.scrollTo(0,0);
   }
+  
 }

@@ -1,33 +1,80 @@
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif;overflow-y: hidden; }
+
 .ordercard
  {
-    max-width: 90%;
-    margin-top: 40px;
-    box-shadow: 1px 1px 3px 3px lightgray;
-    margin-bottom: 10px;
-    margin-left: 22px;
-    /* background-image: url('../../assets/PRIMARK.jpg'); */
+  height: 78px;
+  max-width: 89%;
+  margin-top: 3.25%;
+  box-shadow: 1px 1px 3px 3px lightgrey;
+  margin-bottom: 10px;
+  margin-left: 3.5%;
+  background: #C2FECA;
+ }
+ .ordercard1
+ {
+  height: 78px;
+  max-width: 89%;
+  margin-top: 3.25%;
+  box-shadow: 1px 1px 3px 3px lightgrey;
+  margin-bottom: 10px;
+  margin-left: 3.5%;
+  background: #FEF9C2;
+ }
+
+ .CARD{
+  max-width: 40%;
+  margin-top: -23.40%;
+  box-shadow: 1px 1px 3px 3px lightgrey;
+  margin-bottom: 10px;
+  margin-left: 51.5%;
  }
  .Order{
-     font-size: 28px;
-     margin-top: 10px;
+  font-size: 209%;
+    font-weight: 500;
+    margin-left: 3.50%;
  }
  .Customer{
-    margin-top: -22px;
-    font-size: 28px;
-    font-weight: bold;
+  font-size: 197%;
+    font-weight: 500;
     color: black;
+    margin-left: 3.5%;
+ }
+ .ORDER1{
+  font-size: 182%;
+  font-weight: 500;
+  color: black;
+  margin-left: 49%;
+  margin-top: -8%;
+ }
+ .PICK1{
+  margin-left: 63.5%;
+  font-size: 115%;
+  margin-top: -9%;
+  font-weight: 500;
+  font-size: 166%;
+  color: gray;
+ }
+ .PICK{
+  margin-left: 63.5%;
+  font-size: 115%;
+  margin-top: -9%;
+  font-weight: 500;
+  font-size: 166%;
+  color: green;
  }
  .ORDER{
-    margin-top: 10px;
-    font-size: 28px;
-    font-weight: bold;
+  font-size: 206%;
+    font-weight: 500;
     color: black;
+    margin-left: 49%;
  }
  .DATE{
-    margin-left: 156px;
-    font-size: 27px;
-    margin-top: -59px;
-    font-weight: bold;
+  margin-left: 72%;
+    font-size: 116%;
+    margin-top: -9%;
+    font-weight: 500;
+    font-size: 181%;
  }
  .HEADER{
   background: black;
@@ -42,6 +89,21 @@ flex: .5 .5 auto;
 text-decoration: none;
 font-size: 164%;
 white-space: normal;
+}
+.Order_id{
+  margin-top: -12.5%;
+    margin-left: 22%;
+    font-weight: 500;
+    font-family: Roboto;
+    font-size: 178%;
+}
+.Quantity{
+  margin-top: -9%;
+    margin-left: 28%;
+    font-weight: 500;
+    font-family: Roboto;
+    font-size: 189%;
+    color: black;
 }
  
 

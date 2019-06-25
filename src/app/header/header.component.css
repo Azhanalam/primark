@@ -6,6 +6,11 @@
 }
 .LOGOHEADER{
     height: 50px !important;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    width: 100%  !important;
     /* background: #19194A; */
 }
 .companyName{

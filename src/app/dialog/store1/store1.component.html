@@ -1,0 +1,12 @@
+
+
+<div mat-dialog-content>
+  <p style="color: black;margin-top: 15px;font-weight: 600;">Walk to Beauty product Aisle to pick up </p>
+</div>
+
+<div mat-dialog-actions>
+  <button mat-raised-button class="YESBUTTON" [mat-dialog-close]="data" cdkFocusInitial (click)="YES($event)">Yes</button>
+
+  <button mat-raised-button class="NOBUTTON" style="margin-left:21px;" [mat-dialog-close]="data" cdkFocusInitial>No</button>
+  
+</div>

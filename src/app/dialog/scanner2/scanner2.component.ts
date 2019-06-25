@@ -73,8 +73,8 @@ export class Scanner2Component implements OnInit {
   {
   
     const dialogRef = this.dialog.open(SuitsdialogComponent, { 
-      width: '550px',
-      height:'550px'
+      width: '400px',
+      height:'425px'
     });
 
     dialogRef.afterClosed().subscribe(result => {

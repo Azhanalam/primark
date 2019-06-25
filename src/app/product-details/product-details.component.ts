@@ -47,7 +47,7 @@ export class ProductDetailsComponent implements OnInit {
     
   }
 
-  submit2():void
+  submit2(event):void
   {
     const dialogRef = this.dialog.open(Scanner3Component, { 
       width: '500px',
@@ -58,7 +58,7 @@ export class ProductDetailsComponent implements OnInit {
       console.log('The dialog was closed');
       
     });
-    
+    window.scrollTo(0,0);
   }
   }
 

@@ -8,13 +8,15 @@
 <!-- <h3 mat-dialog-title style="color: black;margin-top: -14px;font-weight: 700">Price:</h3>
 <p mat-dialog-title style="color: black;margin-top: -51px;margin-left: 55px">$35</p> -->
 
-<img class="logo__image" src="../assets/blazer.jpg" width="269" height="240" style="margin-top: -11px" alt="" title="" />
-  
+<img class="logo__image" src="../assets/beauty.PNG" width="269" height="240" style="margin-top: -11px" alt="" title="" />
+<div mat-dialog-content>
+      <p style="color: black;margin-top: 15px;font-weight: 600;">Quantity: 1</p>
+   </div>
 <div mat-dialog-content>
    <p style="color: black;margin-top: 15px;font-weight: 600;">Enter the size of the product</p>
 </div>
 <div style="margin-left: 230px;margin-top: -40px;">
-   <input matInput type="text" style="width: 39px;height:25px">
+   <input matInput type="text" autocomplete="off" [(ngModel)]="inputText" style="width: 39px;height:25px">
 </div>
 <!-- 
 <div mat-dialog-content>
@@ -22,7 +24,7 @@
 </div> -->
 
 <div mat-dialog-actions>
-    <button mat-raised-button class="YESBUTTON" [mat-dialog-close]="data" cdkFocusInitial (click)="YES()">Yes</button>
+    <button [disabled]="!inputText" mat-raised-button class="YESBUTTON" [mat-dialog-close]="data" cdkFocusInitial (click)="YES(inputText)">Yes</button>
   
     <button mat-raised-button class="NOBUTTON" style="margin-left:21px;" [mat-dialog-close]="data" cdkFocusInitial>No</button>
     

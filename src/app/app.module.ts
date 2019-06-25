@@ -27,6 +27,18 @@ import { Scanner3Component } from './dialog/scanner3/scanner3.component';
 import { Suitsdialog2Component } from './dialog/suitsdialog2/suitsdialog2.component';
 import { StoremapComponent } from './storemap/storemap.component';
 import { ProductComponent } from './product/product.component';
+import { Product2Component } from './product2/product2.component';
+import { Product3Component } from './product3/product3.component';
+import { ItemlistComponent } from './dialog/itemlist/itemlist.component';
+import { PathComponent } from './dialog/path/path.component';
+import { AllitemspickedComponent } from './dialog/allitemspicked/allitemspicked.component';
+import { Store1Component } from './dialog/store1/store1.component';
+import { Store2Component } from './dialog/store2/store2.component';
+import { Store3Component } from './dialog/store3/store3.component';
+import { FinalpickedComponent } from './dialog/finalpicked/finalpicked.component';
+import { Storemap2Component } from './storemap2/storemap2.component';
+import { Storemap3Component } from './storemap3/storemap3.component';
+import { Map4Component } from './map4/map4.component';
 
 
 @NgModule({
@@ -44,7 +56,18 @@ import { ProductComponent } from './product/product.component';
     Suitsdialog2Component,
     StoremapComponent,
     ProductComponent,
-    
+    Product2Component,
+    Product3Component,
+    ItemlistComponent,
+    PathComponent,
+    AllitemspickedComponent,
+    Store1Component,
+    Store2Component,
+    Store3Component,
+    FinalpickedComponent,
+    Storemap2Component,
+    Storemap3Component,
+    Map4Component,
   ],
   imports: [
     ZXingScannerModule,
@@ -63,6 +86,13 @@ import { ProductComponent } from './product/product.component';
     BrowserAnimationsModule
   ],
   entryComponents: [
+    Store1Component,
+    Store2Component,
+    Store3Component,
+    FinalpickedComponent,
+    ItemlistComponent,
+    PathComponent,
+    AllitemspickedComponent,
     Suitsdialog2Component,
     Scanner2Component,
     Scanner3Component,

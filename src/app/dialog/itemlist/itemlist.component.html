@@ -1,0 +1,19 @@
+<div mat-dialog-content>
+    <p style="color: black;margin-top: 1px;font-weight: 600;font-size: 120%">Item list</p>
+  </div>
+<div mat-dialog-content>
+  <p style="color: black;margin-top: -1px;font-weight: 600;">1. Aladdin false nails</p>
+</div>
+<div mat-dialog-content>
+  <p style="color: black;margin-top: -1px;font-weight: 600;">2. Short sleeve stripe shirt</p>
+</div>
+<div mat-dialog-content>
+  <p style="color: black;margin-top: -1px;font-weight: 600;">3. Yellow tiered dress</p>
+</div>
+
+<div mat-dialog-actions>
+    <button mat-raised-button class="YESBUTTON" [mat-dialog-close]="data" cdkFocusInitial (click)="PICK()">Pick</button>
+  
+    <button mat-raised-button class="NOBUTTON" style="margin-left:21px;" [mat-dialog-close]="data" cdkFocusInitial>Cancel</button>
+    
+  </div>
