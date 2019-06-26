@@ -15,7 +15,7 @@ export class ItemlistComponent implements OnInit {
   PICK():void
   {
     const dialogRef = this.dialog.open(PathComponent, { 
-      width: '365px',
+      width: '465px',
       // height:'500px'
     });
 

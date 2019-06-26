@@ -8,16 +8,19 @@
  }
   
   .logo__image {
-    width: 742px;
-    margin-left: -34px;
-    margin-top: -13px;
-    height: 619px;
+    width: 759px;
+    margin-left: -52px;
+    margin-top: -16px;
+    height: 617px;
   }
   .HEADER{
     background: black;
     color: white;
     font-size: 17px;
     height: 50px !important;
+    margin-top: -8.7px;
+    width: 102%;
+    margin-left: -8px;
 }
 .example-spacer {
   flex: .5 .5 auto;
@@ -26,10 +29,15 @@
   text-decoration: none;
   font-size: 164%;
   white-space: normal;
+  font-family: 'Arial';
 }
 .BUTTON{
   background: #318722;
   color: white;
-  font-size: 100%;
+  font-size: 22px;
   height: 37px;
+  font-family: 'Arial';
+}
+body{
+  font-family: 'Arial';
 }

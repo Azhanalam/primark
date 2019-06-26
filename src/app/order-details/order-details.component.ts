@@ -9,6 +9,8 @@ import { ItemlistComponent } from '../dialog/itemlist/itemlist.component';
 })
 export class OrderDetailsComponent implements OnInit {
 
+  DATE1:string=new Date(new Date().setUTCDate(new Date().getDate()-1)).toJSON().slice(0,10).split('-').reverse().join('/');
+  DATE:string=new Date().toJSON().slice(0,10).split('-').reverse().join('/');
   constructor(public dialog: MatDialog) { }
 
   ngOnInit() {

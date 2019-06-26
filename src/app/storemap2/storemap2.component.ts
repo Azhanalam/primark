@@ -15,7 +15,7 @@ export class Storemap2Component implements OnInit {
   }
 submit():void{
   const dialogRef = this.dialog.open(Store2Component,{
-    width: '370px',
+    width: '525px',
   });
   dialogRef.afterClosed().subscribe(result=>{
     console.log('the dialog was closed');

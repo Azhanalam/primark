@@ -1,8 +1,11 @@
 .YESBUTTON{
     color: white;
     background-color: #318722;
-    margin-left: 202px;
+    margin-left: 242px;
     width: 84px;
     margin-top: -6%;
+    font-family: 'Arial';
  }
- 
+ body{
+     font-family: 'Arial';
+ }

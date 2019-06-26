@@ -16,12 +16,21 @@ export class Suitsdialog2Component implements OnInit {
   }
   
 YES(inputText):void{
-  console.log(inputText);
- const dialogRef= this.dialog.open(FinalpickedComponent,{
-    width:"330px"
+  const dialogRef = this.dialog.open(FinalpickedComponent, { 
+    width: '390px',
+    // height:'425px'
   });
-dialogRef.afterClosed().subscribe(result=>{
-  console.log("the dialog was closed");
-});
+
+  dialogRef.afterClosed().subscribe(result => {
+    console.log('The dialog was closed');
+    
+  });
+//   console.log(inputText);
+//  const dialogRef= this.dialog.open(FinalpickedComponent,{
+//     width:"390px"
+//   });
+// dialogRef.afterClosed().subscribe(result=>{
+//   console.log("the dialog was closed");
+// });
 }
 }

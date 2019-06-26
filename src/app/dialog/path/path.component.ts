@@ -13,6 +13,7 @@ export class PathComponent implements OnInit {
   ngOnInit() {
   }
   Yes(){
-    this.router.navigate(["map4"]);
+    this.router.navigate(["map"]);
+    window.scrollTo(0,0);
   }
 }

@@ -7,6 +7,9 @@
         </a>
     </div>
 </div> -->
+<body>
+  
+
 
 <div class="scanner-shell" [hidden]="!hasDevices">
     <zxing-scanner [torch]="torchEnabled" [(device)]="currentDevice" (scanSuccess)="onCodeResult($event)"
@@ -62,3 +65,4 @@
 <div mat-dialog-actions>
     <button mat-raised-button class="Button" [mat-dialog-close]="data" cdkFocusInitial (click)="submit()">Ok</button>
   </div>
+</body>

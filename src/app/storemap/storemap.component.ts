@@ -18,7 +18,7 @@ export class StoremapComponent implements OnInit {
   submit(){
     // this.router.navigate(["product"]);
     const dialogRef = this.dialog.open(Store1Component, { 
-      width: '370px',
+      width: '517px',
       // height:'500px'
     });
 

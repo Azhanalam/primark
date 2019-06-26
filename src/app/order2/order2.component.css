@@ -1,11 +1,11 @@
 html, body { height: 100%; }
-body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif;overflow-y: hidden; }
+body { margin: 0; font-family: 'Arial';overflow-y: hidden; }
 
 .ordercard
  {
-  height: 78px;
+  height: 45px;
   max-width: 89%;
-  margin-top: 3.25%;
+  margin-top: 2.25%;
   box-shadow: 1px 1px 3px 3px lightgrey;
   margin-bottom: 10px;
   margin-left: 3.5%;
@@ -13,9 +13,9 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif;overflow-y: 
  }
  .ordercard1
  {
-  height: 78px;
+  height: 45px;
   max-width: 89%;
-  margin-top: 3.25%;
+  margin-top: 2.25%;
   box-shadow: 1px 1px 3px 3px lightgrey;
   margin-bottom: 10px;
   margin-left: 3.5%;
@@ -30,51 +30,58 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif;overflow-y: 
   margin-left: 51.5%;
  }
  .Order{
-  font-size: 209%;
-    font-weight: 500;
-    margin-left: 3.50%;
+  font-size: 20px;
+  font-weight: 600;
+  margin-left: 3.50%;
+  font-family: 'Arial';
  }
  .Customer{
-  font-size: 197%;
-    font-weight: 500;
-    color: black;
-    margin-left: 3.5%;
+  font-size: 20px;
+  font-weight: 600;
+  color: black;
+  margin-left: 3.5%;
+  font-family: 'Arial';
  }
  .ORDER1{
-  font-size: 182%;
-  font-weight: 500;
-  color: black;
-  margin-left: 49%;
-  margin-top: -8%;
- }
- .PICK1{
-  margin-left: 63.5%;
-  font-size: 115%;
-  margin-top: -9%;
-  font-weight: 500;
-  font-size: 166%;
-  color: gray;
- }
- .PICK{
-  margin-left: 63.5%;
-  font-size: 115%;
-  margin-top: -9%;
-  font-weight: 500;
-  font-size: 166%;
-  color: gray;
- }
- .ORDER{
-  font-size: 206%;
-    font-weight: 500;
+  font-size: 20px;
+  font-weight: 600;
     color: black;
     margin-left: 49%;
+    margin-top: -7.5%;
+    font-family: 'Arial';
+ }
+ .PICK1{
+  margin-left: 59.5%;
+  font-size: 115%;
+  margin-top: -6.3%;
+  /* font-weight: 500; */
+  font-size: 20px;
+  color: gray;
+  font-family: 'Arial';
+ }
+ .PICK{
+  margin-left: 59.5%;
+  font-size: 115%;
+  margin-top: -6.3%;
+  /* font-weight: 500; */
+  font-size: 20px;
+  color: gray;
+  font-family: 'Arial';
+ }
+ .ORDER{
+  font-weight: 600;
+    color: black;
+    margin-left: 49%;
+    font-size: 20px;
+    font-family: Arial;
  }
  .DATE{
-  margin-left: 72%;
+  margin-left: 66%;
     font-size: 116%;
-    margin-top: -9%;
-    font-weight: 500;
-    font-size: 181%;
+    margin-top: -6.4%;
+    font-weight: 400;
+    font-size: 20px;
+    font-family: 'Arial';
  }
  .HEADER{
   background: black;
@@ -91,18 +98,18 @@ font-size: 164%;
 white-space: normal;
 }
 .Order_id{
-  margin-top: -12.5%;
-    margin-left: 22%;
-    font-weight: 500;
-    font-family: Roboto;
-    font-size: 178%;
+  margin-top: -8.2%;
+  margin-left: 17%;
+  font-weight: 400;
+  font-size: 18px;
+  font-family: 'Arial';
 }
 .Quantity{
-  margin-top: -9%;
-    margin-left: 28%;
+  margin-top: -6.3%;
+    margin-left: 21.5%;
     font-weight: 500;
-    font-family: Roboto;
-    font-size: 189%;
+    font-family: 'Arial';
+    font-size: 20px;
     color: black;
 }
  
