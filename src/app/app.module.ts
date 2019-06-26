@@ -39,6 +39,7 @@ import { FinalpickedComponent } from './dialog/finalpicked/finalpicked.component
 import { Storemap2Component } from './storemap2/storemap2.component';
 import { Storemap3Component } from './storemap3/storemap3.component';
 import { Map4Component } from './map4/map4.component';
+import { Order2Component } from './order2/order2.component';
 
 
 @NgModule({
@@ -68,6 +69,7 @@ import { Map4Component } from './map4/map4.component';
     Storemap2Component,
     Storemap3Component,
     Map4Component,
+    Order2Component,
   ],
   imports: [
     ZXingScannerModule,

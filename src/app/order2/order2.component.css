@@ -1,0 +1,185 @@
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif;overflow-y: hidden; }
+
+.ordercard
+ {
+  height: 78px;
+  max-width: 89%;
+  margin-top: 3.25%;
+  box-shadow: 1px 1px 3px 3px lightgrey;
+  margin-bottom: 10px;
+  margin-left: 3.5%;
+  background: #FEF9C2;
+ }
+ .ordercard1
+ {
+  height: 78px;
+  max-width: 89%;
+  margin-top: 3.25%;
+  box-shadow: 1px 1px 3px 3px lightgrey;
+  margin-bottom: 10px;
+  margin-left: 3.5%;
+  background: #FEF9C2;
+ }
+
+ .CARD{
+  max-width: 40%;
+  margin-top: -23.40%;
+  box-shadow: 1px 1px 3px 3px lightgrey;
+  margin-bottom: 10px;
+  margin-left: 51.5%;
+ }
+ .Order{
+  font-size: 209%;
+    font-weight: 500;
+    margin-left: 3.50%;
+ }
+ .Customer{
+  font-size: 197%;
+    font-weight: 500;
+    color: black;
+    margin-left: 3.5%;
+ }
+ .ORDER1{
+  font-size: 182%;
+  font-weight: 500;
+  color: black;
+  margin-left: 49%;
+  margin-top: -8%;
+ }
+ .PICK1{
+  margin-left: 63.5%;
+  font-size: 115%;
+  margin-top: -9%;
+  font-weight: 500;
+  font-size: 166%;
+  color: gray;
+ }
+ .PICK{
+  margin-left: 63.5%;
+  font-size: 115%;
+  margin-top: -9%;
+  font-weight: 500;
+  font-size: 166%;
+  color: gray;
+ }
+ .ORDER{
+  font-size: 206%;
+    font-weight: 500;
+    color: black;
+    margin-left: 49%;
+ }
+ .DATE{
+  margin-left: 72%;
+    font-size: 116%;
+    margin-top: -9%;
+    font-weight: 500;
+    font-size: 181%;
+ }
+ .HEADER{
+  background: black;
+  color: white;
+  font-size: 17px;
+  height: 50px !important;
+}
+.example-spacer {
+flex: .5 .5 auto;
+}
+.MENU{
+text-decoration: none;
+font-size: 164%;
+white-space: normal;
+}
+.Order_id{
+  margin-top: -12.5%;
+    margin-left: 22%;
+    font-weight: 500;
+    font-family: Roboto;
+    font-size: 178%;
+}
+.Quantity{
+  margin-top: -9%;
+    margin-left: 28%;
+    font-weight: 500;
+    font-family: Roboto;
+    font-size: 189%;
+    color: black;
+}
+ 
+
+/* 
+ @media (min-width: 1281px) {
+
+} */
+  
+  /* 
+    ##Device = Laptops, Desktops
+    ##Screen = B/w 1025px to 1280px
+ */
+  
+  /* @media (min-width: 1025px) and (max-width: 1280px) {
+
+  }  */
+  
+  /* 
+    ##Device = Tablets, Ipads (portrait)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+  /* @media (min-width: 768px) and (max-width: 1024px) {
+    .form-container{
+        width: 95%;
+        margin: auto;
+        padding-bottom: 24px !important;
+        display: block;
+        background: rgb(253, 253, 253);
+    }
+    .btn{
+        font-size: 1em;
+    }
+  } */
+  
+  /* 
+    ##Device = Tablets, Ipads (landscape)
+    ##Screen = B/w 768px to 1024px
+ */
+  
+  /* @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+
+  }  */
+  
+  /* 
+    ##Device = Low Resolution Tablets, Mobiles (Landscape)
+    ##Screen = B/w 481px to 767px
+
+   */
+  /* @media (min-width: 481px) and (max-width: 767px) {
+    .form-container{
+        width: 95%;
+        margin: auto;
+        padding-bottom: 24px !important;
+        display: block;
+        background: rgb(253, 253, 253);
+    }
+    .btn{
+        font-size: 1em;
+    }
+  }  */
+  
+  /* 
+    ##Device = Most of the Smartphones Mobiles (Portrait)
+    ##Screen = B/w 320px to 479px
+  
+  */
+  /* @media (min-width: 320px) and (max-width: 480px) {
+    .form-container{
+        width: 95%;
+        margin: auto;
+        padding-bottom: 24px !important;
+        display: block;
+        background: rgb(253, 253, 253);
+    }
+    .btn{
+        font-size: 1em;
+    }
+  } */

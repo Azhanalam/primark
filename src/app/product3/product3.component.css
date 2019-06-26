@@ -22,6 +22,7 @@ html{
       margin-bottom: 10px;
       margin-left: 22px;
       height: 328px;
+      margin-top: 1%;
    }
    .Detailcard{
     max-width: 52%;
@@ -43,6 +44,13 @@ html{
     color: black !important;
     margin-left: -4px;
    }
+   .Quantity{
+    margin-top: -22px;
+    font-size: 20px;
+    font-weight: lighter;
+    color: black !important;
+    margin-left: -4px;
+   }
    .Price{
     font-size: 20px;
     font-weight: lighter;
@@ -51,11 +59,10 @@ html{
     margin-top: -17px;
    }
    .AMOUNT{
+     
     margin-left: -23px;
-      font-size: 28px;
-      margin-left: -4px;
-      font-weight: 600;
-      color: #0097bd;
+      font-size: 22px;
+     
       margin-top: -8.5%;
    }
    .PRODUCT{

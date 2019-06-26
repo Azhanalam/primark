@@ -38,6 +38,7 @@ export class ScannerdialogComponent implements OnInit {
 
   clearResult(): void {
     this.qrResultString = null;
+    // this.availableDevices=null;
   }
 
   onCamerasFound(devices: MediaDeviceInfo[]): void {
